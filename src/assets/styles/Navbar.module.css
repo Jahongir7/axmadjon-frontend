@@ -1,0 +1,15 @@
+.navbar {
+    width: 100% !important;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-image: url(../images/a.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .icons svg {
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+}
+
+.main_content {
+    width: calc(100% - 280px);
+    position: absolute;
+    right: 0;
+}
+
+.main_sidebar {
+    position: fixed;
+}
