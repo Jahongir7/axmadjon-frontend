@@ -10,7 +10,7 @@ const SideBar = ({ menu, setMenu }) => {
         <>
             <div className={`${width > 880 ? classes.sidebar : classes.sidebar_mob} ${menu ? classes.menu_active : ""}`}>
                 {width < 880 ? <Icon icon="fa:close" onClick={() => setMenu(!menu)} className={classes.align_right} width="24" height="24" /> : ""}
-                <Logo />
+               {width>880 ?  <Logo /> : ""}
                 <b>Asadbek Baxtiyarov</b>
                 <p>Buxgalter</p>
                 <ul>
