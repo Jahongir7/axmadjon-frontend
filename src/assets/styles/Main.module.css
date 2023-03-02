@@ -11,3 +11,11 @@
 .main_sidebar {
     position: fixed;
 }
+@media (max-width: 880px) {
+    .main_content{
+        width: 100%;
+    }
+    .main_sidebar{
+        z-index: 999;
+    }
+}

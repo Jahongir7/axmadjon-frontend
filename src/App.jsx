@@ -4,6 +4,7 @@ import BuildingAdd from './components/dashboard/BuildingAdd'
 import Buildings from './components/dashboard/Buildings'
 import ClientAdd from './components/dashboard/ClientAdd'
 import Clients from './components/dashboard/Clients'
+import EachClient from './components/dashboard/EachClient'
 import Main from './components/dashboard/Main'
 import Statistics from './components/dashboard/Statistics'
 import Login from './components/login/Login'
@@ -20,6 +21,7 @@ function App() {
           <Route path="building-add" element={<BuildingAdd />} />
           <Route path="clients" element={<Clients />} />
           <Route path="client-add" element={<ClientAdd />} />
+          <Route path="clients/client/:id" element={<EachClient />} />
         </Route>
       </Routes>
     </div>

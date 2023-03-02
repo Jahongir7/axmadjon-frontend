@@ -5,7 +5,8 @@
     background-image: url(../images/a.jpg);
     background-size: cover;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    color: #fff;
 }
 
 .navbar .icons svg {

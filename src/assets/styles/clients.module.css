@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.debt b{
+    background-color: #c4414138;
+    color: #c44141;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+}
+.myModal>p{
+    margin: 0;
+}
+.allPrice b{
+    background-color: #42ce424f;
+    color: #187018;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+}
+.flex>a{
+    margin: 20px 0;
+}

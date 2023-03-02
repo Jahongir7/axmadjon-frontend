@@ -3,7 +3,6 @@ import * as Yup from "yup";
 import { Stack, TextField, Button, Checkbox, FormControlLabel } from "@mui/material";
 import classes from "../../assets/styles/BuildingsAdd.module.css"
 import "../../assets/styles/buildings.css"
-import img from "./a.png"
 
 // ----------------------------------------------------------------------
 const ValidationAddCompany = Yup.object().shape({
